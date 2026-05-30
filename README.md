@@ -55,7 +55,7 @@ c7d8e9f0 cli-tool               58     1h ago  Investigate slow startup
 Until `sift` is published to PyPI, install from source:
 
 ```sh
-git clone https://github.com/TODO/sift && cd sift
+git clone https://github.com/SimonMav/sift-cc && cd sift
 pip install .
 ```
 
