@@ -52,14 +52,20 @@ c7d8e9f0 cli-tool               58     1h ago  Investigate slow startup
 
 ### pip (recommended)
 
-Until `sift` is published to PyPI, install from source:
-
 ```sh
-git clone https://github.com/SimonMav/sift-cc && cd sift
-pip install .
+pip install sift-cc
 ```
 
 This puts `sift` on your `$PATH`.
+
+Prefer isolated installs? `pipx install sift-cc` or `uv tool install sift-cc` work the same way.
+
+#### From source
+
+```sh
+git clone https://github.com/SimonMav/sift-cc && cd sift-cc
+pip install .
+```
 
 ### Single file, no pip
 
