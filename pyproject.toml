@@ -30,9 +30,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/TODO/sift"
-Repository = "https://github.com/TODO/sift"
-Issues = "https://github.com/TODO/sift/issues"
+Homepage = "https://github.com/SimonMav/sift-cc"
+Repository = "https://github.com/SimonMav/sift-cc"
+Issues = "https://github.com/SimonMav/sift-cc/issues"
 
 [project.scripts]
 sift = "sift:main"
