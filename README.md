@@ -2,6 +2,11 @@
 
 > Mine your Claude Code conversation archive.
 
+[![CI](https://github.com/SimonMav/sift-cc/actions/workflows/ci.yml/badge.svg)](https://github.com/SimonMav/sift-cc/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/sift-cc.svg)](https://pypi.org/project/sift-cc/)
+[![Python versions](https://img.shields.io/pypi/pyversions/sift-cc.svg)](https://pypi.org/project/sift-cc/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Every Claude Code session you've ever had is sitting in `~/.claude/projects/` as a JSONL file. After a few weeks that archive becomes a goldmine: code you've already worked through, decisions you've already made, explanations you've already gotten — but there's no way to actually use it.
 
 `sift` makes that archive usable. Open the interactive TUI, search across every conversation, browse sessions by project and time, extract code blocks, find related discussions, render whole sessions to markdown, and jump back into any one of them.
@@ -11,7 +16,7 @@ Every Claude Code session you've ever had is sitting in `~/.claude/projects/` as
 ```text
 $ sift                                # interactive TUI (default when no args)
 
-  ▰ sift v0.2.1  ·  145/145 sessions                              ?  help    q  quit
+  ▰ sift v0.2.3  ·  145/145 sessions                              ?  help    q  quit
   press / to filter titles & paths   ·   s to search conversation contents
   ─────────────────────────────────────────────────────────────────────────────────
   ▸ a1b2c3d  webapp            173   just now  Refactor auth middl…  │  Refactor auth middleware

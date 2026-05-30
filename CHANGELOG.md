@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.3] — 2026-05-30
+
+### Added
+- README badges for CI status, PyPI version, supported Python versions, and license.
+- CI smoke-install job: builds the wheel and installs it into a clean venv to catch packaging regressions that unit tests miss.
+- Release workflow now creates a GitHub Release for each `v*` tag, attaches the wheel and sdist, and pulls notes from `CHANGELOG.md`.
+
+## [0.2.2] — 2026-05-30
+
+### Packaging
+- Bumped pinned GitHub Actions versions (Dependabot).
+
 ## [0.2.1] — 2026-05-30
 
 ### Packaging
