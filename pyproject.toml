@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sift-cc"
-version = "0.2.1"
+version = "0.2.2"
 description = "Mine your Claude Code conversation archive — search, browse, and extract from past sessions."
 readme = "README.md"
 license = "MIT"
