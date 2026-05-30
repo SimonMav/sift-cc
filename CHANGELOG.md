@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] — 2026-05-30
+
+### Packaging
+- Added GitHub Actions CI workflow: ruff lint plus unittest suite across Python 3.10–3.13 on Ubuntu and macOS.
+- Added trusted-publishing release workflow that builds the wheel/sdist and publishes to PyPI on `v*` tags.
+- Added minimal `[tool.ruff]` config (pyflakes + syntax errors only).
+- Added Dependabot config to keep GitHub Actions versions current.
+
 ## [0.2.0] — 2026-05-30
 
 ### Added

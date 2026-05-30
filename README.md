@@ -11,7 +11,7 @@ Every Claude Code session you've ever had is sitting in `~/.claude/projects/` as
 ```text
 $ sift                                # interactive TUI (default when no args)
 
-  ▰ sift v0.2.0  ·  145/145 sessions                              ?  help    q  quit
+  ▰ sift v0.2.1  ·  145/145 sessions                              ?  help    q  quit
   press / to filter titles & paths   ·   s to search conversation contents
   ─────────────────────────────────────────────────────────────────────────────────
   ▸ a1b2c3d  webapp            173   just now  Refactor auth middl…  │  Refactor auth middleware
